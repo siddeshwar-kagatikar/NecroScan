@@ -111,25 +111,9 @@ The complete pipeline can be summarized as:
                     WSI-Level Heatmap
 ```
 
-### 📌 Pipeline image
+## 🔄 Pipeline
 
-**Add your main pipeline diagram here.**
-
-Recommended repository path:
-
-``` text
-assets/pipeline.png
-```
-
-Then use:
-
-``` markdown
 ![NecroScan Pipeline](assets/pipeline.png)
-```
-
-**Best source from the presentation:** the pipeline diagram on the
-slides describing the full inference workflow (the U-Net → mask →
-Xception → SVM stages).
 
 ------------------------------------------------------------------------
 
@@ -197,31 +181,9 @@ Histopathology Patch
 Binary Cell Mask
 ```
 
-### 🖼️ Add segmentation example here
+## 🔬 Segmentation Results
 
-Use a side-by-side image containing:
-
-``` text
-Original Patch | Cellpose Ground Truth | U-Net Prediction
-```
-
-Recommended path:
-
-``` text
-assets/segmentation_comparison.png
-```
-
-``` markdown
 ![Segmentation Comparison](assets/segmentation_comparison.png)
-```
-
-**Best examples from the presentation:**
-
--   GBM non-necrotic patch: strong qualitative prediction
--   MNG non-necrotic patch: strong qualitative prediction
--   MNG necrotic patch: demonstrates the more difficult necrosis case
--   Swin U-Net GBM prediction: useful for the model comparison section
-
 ------------------------------------------------------------------------
 
 # 🧩 Segmentation Models
@@ -435,21 +397,9 @@ The presentation uses:
 -   **Green → Non-necrosis**
 -   **Red → Necrosis**
 
-### 🖼️ Final heatmap
+## 🗺️ WSI-Level Necrosis Detection
 
-Recommended:
-
-``` text
-assets/necrosis_heatmap.png
-```
-
-``` markdown
 ![WSI Necrosis Heatmap](assets/necrosis_heatmap.png)
-```
-
-This should be one of the **largest and most prominent images in the
-README**, because it demonstrates the final end-to-end output rather
-than only an intermediate model prediction.
 
 ------------------------------------------------------------------------
 
